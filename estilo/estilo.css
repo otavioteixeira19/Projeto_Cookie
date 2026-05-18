@@ -145,6 +145,11 @@ body {
     margin: 10px;
 }
 
+.contato p {
+    padding: 7px;
+    margin-left: 5px;
+}
+
 .footer p {
     color: rgba(0, 0, 0, 0.638);
     font-size: 14px;
