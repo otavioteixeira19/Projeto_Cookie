@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family:Lobster;
+    src: url(../fonte/LobsterTwo-Regular.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 169, 241);
+    
+}
+
+#principal {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+.n {
+    height: 60px;
+    width: 55px;
+    margin: 0px 0px 0px 135px;
+}
+
+.t {
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.159);
+}
+
+.section1 h1 {
+    font-family: Lobster;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px;
+    color: aliceblue;
+}
+
+.header-top {
+    background-color: #FF8DC7;
+    height: 60px;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 8px;
+    padding: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 14px;
+    transition:  0.3s;
+}
+
+.menu li a:hover {
+    color: rgba(54, 52, 52, 0.83);
+}
+
+
+.galeria {
+    display: flex;                       
+    gap: 10px;                            
+    justify-content: center;
+}
+
+.card img {
+    width: 300px;
+    height: 230px;
+    border-radius: 5px;
+    border: solid 1px black;
+    max-width: 100%;
+}
+
+.card p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Lobster;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sobre {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sobre h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-family: Lobster;
+}
+
+.sobre p {
+    color: rgba(54, 52, 52, 0.709);
+    margin:20px;
+    line-height: 1.5;
+}
+
+.footer {
+    background: #1111114e;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 10px;
+    
+}
+
+.n2 {
+    height: 60px;
+    width: 55px;
+}
+
+.contato img {
+    height: 30px;
+    width: 40px;
+}
+
+.contato a {
+    margin: 10px;
+}
+
+.footer p {
+    color: rgba(0, 0, 0, 0.638);
+    font-size: 14px;
+    font-weight: bold;
+}
